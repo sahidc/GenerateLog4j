@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="com.qa.Test.loginTest" time="0.423" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_172\bin"/>
+    <property name="java.vm.version" value="25.172-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mashuda\eclipse-workspace\SeleniumProject\GenerateLog4j"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mashuda\eclipse-workspace\SeleniumProject\GenerateLog4j"/>
+    <property name="java.runtime.version" value="1.8.0_172-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_172\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mashuda\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Mashuda\eclipse-workspace\SeleniumProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf768221540684587881.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_172/bin/server;C:/Program Files/Java/jre1.8.0_172/bin;C:/Program Files/Java/jre1.8.0_172/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Java\jre1.8.0_172\bin;C:\Android;C:\Windows\System32;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Mashuda\AppData\Local\Microsoft\WindowsApps;;D:\Java\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Mashuda"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Mashuda"/>
+    <property name="java.class.path" value="/D:/Java/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.1.20170728-1531/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_172"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_172"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_172\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_172\lib\resources.jar;C:\Program Files\Java\jre1.8.0_172\lib\rt.jar;C:\Program Files\Java\jre1.8.0_172\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_172\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_172\lib\jce.jar;C:\Program Files\Java\jre1.8.0_172\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_172\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_172\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Mashuda\eclipse-workspace\SeleniumProject\GenerateLog4j\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.qa.Test.loginTest" name="TitleTextTest" time="0.093">
+    <failure message="expected [CRMPRO CRM Software for customer relationship management, sales and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [CRMPRO CRM Software for customer relationship management, sales and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.qa.Test.loginTest.TitleTextTest(loginTest.java:40)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@14899482
+06-04-2020 01:34:37 InternalLoggerFactory.java DEBUG [main] logging.InternalLoggerFactory 53 - Using Log4J as the default logging framework
+06-04-2020 01:34:37 ResourceLeakDetector.java DEBUG [main] util.ResourceLeakDetector 130 - -Dio.netty.leakDetection.level: simple
+06-04-2020 01:34:37 ResourceLeakDetector.java DEBUG [main] util.ResourceLeakDetector 131 - -Dio.netty.leakDetection.targetRecords: 4
+06-04-2020 01:34:37 ResourceLeakDetectorFactory.java DEBUG [main] util.ResourceLeakDetectorFactory 195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@17c1bced
+06-04-2020 01:34:37 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1015 - Platform: Windows
+06-04-2020 01:34:37 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 408 - -Dio.netty.noUnsafe: false
+06-04-2020 01:34:37 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 876 - Java version: 8
+06-04-2020 01:34:37 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 125 - sun.misc.Unsafe.theUnsafe: available
+06-04-2020 01:34:37 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 149 - sun.misc.Unsafe.copyMemory: available
+06-04-2020 01:34:37 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 187 - java.nio.Buffer.address: available
+06-04-2020 01:34:37 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 252 - direct buffer constructor: available
+06-04-2020 01:34:37 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 326 - java.nio.Bits.unaligned: available, true
+06-04-2020 01:34:37 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+06-04-2020 01:34:37 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 398 - java.nio.DirectByteBuffer.&lt;init&gt;(long, int): available
+06-04-2020 01:34:37 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1058 - sun.misc.Unsafe: available
+06-04-2020 01:34:37 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1177 - -Dio.netty.tmpdir: C:\Users\Mashuda\AppData\Local\Temp (java.io.tmpdir)
+06-04-2020 01:34:37 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1256 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+06-04-2020 01:34:37 PlatformDependent.java DEBUG [main] internal.PlatformDependent 177 - -Dio.netty.maxDirectMemory: 926941184 bytes
+06-04-2020 01:34:37 PlatformDependent.java DEBUG [main] internal.PlatformDependent 184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+06-04-2020 01:34:37 CleanerJava6.java DEBUG [main] internal.CleanerJava6 92 - java.nio.ByteBuffer.cleaner(): available
+06-04-2020 01:34:37 PlatformDependent.java DEBUG [main] internal.PlatformDependent 204 - -Dio.netty.noPreferDirect: false
+06-04-2020 01:34:37 PlatformDependent.java DEBUG [main] internal.PlatformDependent 919 - org.jctools-core.MpscChunkedArrayQueue: available
+06-04-2020 01:34:38 JdkSslContext.java DEBUG [main] ssl.JdkSslContext 96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+06-04-2020 01:34:38 JdkSslContext.java DEBUG [main] ssl.JdkSslContext 97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+06-04-2020 01:34:38 InternalThreadLocalMap.java DEBUG [main] internal.InternalThreadLocalMap 56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+06-04-2020 01:34:38 InternalThreadLocalMap.java DEBUG [main] internal.InternalThreadLocalMap 59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+06-04-2020 01:34:38 MultithreadEventLoopGroup.java DEBUG [main] channel.MultithreadEventLoopGroup 44 - -Dio.netty.eventLoopThreads: 8
+06-04-2020 01:34:38 NioEventLoop.java DEBUG [main] nio.NioEventLoop 106 - -Dio.netty.noKeySetOptimization: false
+06-04-2020 01:34:38 NioEventLoop.java DEBUG [main] nio.NioEventLoop 107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 156 - -Dio.netty.allocator.numHeapArenas: 8
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 157 - -Dio.netty.allocator.numDirectArenas: 8
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 159 - -Dio.netty.allocator.pageSize: 8192
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 164 - -Dio.netty.allocator.maxOrder: 11
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 168 - -Dio.netty.allocator.chunkSize: 16777216
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 169 - -Dio.netty.allocator.tinyCacheSize: 512
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 170 - -Dio.netty.allocator.smallCacheSize: 256
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 171 - -Dio.netty.allocator.normalCacheSize: 64
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 175 - -Dio.netty.allocator.useCacheForAllThreads: true
+06-04-2020 01:34:38 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+06-04-2020 01:34:38 ByteBufUtil.java DEBUG [main] buffer.ByteBufUtil 86 - -Dio.netty.allocator.type: pooled
+06-04-2020 01:34:38 ByteBufUtil.java DEBUG [main] buffer.ByteBufUtil 95 - -Dio.netty.threadLocalDirectBufferSize: 0
+06-04-2020 01:34:38 ByteBufUtil.java DEBUG [main] buffer.ByteBufUtil 98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+06-04-2020 01:34:41 DefaultChannelId.java DEBUG [Forwarding newSession on session null to remote] channel.DefaultChannelId 79 - -Dio.netty.processId: 780 (auto-detected)
+06-04-2020 01:34:41 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 139 - -Djava.net.preferIPv4Stack: false
+06-04-2020 01:34:41 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 140 - -Djava.net.preferIPv6Addresses: false
+06-04-2020 01:34:41 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+06-04-2020 01:34:41 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+06-04-2020 01:34:41 DefaultChannelId.java DEBUG [Forwarding newSession on session null to remote] channel.DefaultChannelId 101 - -Dio.netty.machineId: d0:c5:d3:ff:fe:b3:25:eb (auto-detected)
+06-04-2020 01:34:42 AbstractByteBuf.java DEBUG [AsyncHttpClient-3-1] buffer.AbstractByteBuf 63 - -Dio.netty.buffer.checkAccessible: true
+06-04-2020 01:34:42 AbstractByteBuf.java DEBUG [AsyncHttpClient-3-1] buffer.AbstractByteBuf 64 - -Dio.netty.buffer.checkBounds: true
+06-04-2020 01:34:42 ResourceLeakDetectorFactory.java DEBUG [AsyncHttpClient-3-1] util.ResourceLeakDetectorFactory 195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6cc15687
+06-04-2020 01:34:42 Recycler.java DEBUG [AsyncHttpClient-3-1] util.Recycler 97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+06-04-2020 01:34:42 Recycler.java DEBUG [AsyncHttpClient-3-1] util.Recycler 98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+06-04-2020 01:34:42 Recycler.java DEBUG [AsyncHttpClient-3-1] util.Recycler 99 - -Dio.netty.recycler.linkCapacity: 16
+06-04-2020 01:34:42 Recycler.java DEBUG [AsyncHttpClient-3-1] util.Recycler 100 - -Dio.netty.recycler.ratio: 8
+06-04-2020 01:34:46 ThreadLocalRandom.java DEBUG [main] internal.ThreadLocalRandom 212 - -Dio.netty.initialSeedUniquifier: 0x1222772b8c7c20d1
+06-04-2020 01:34:46 loginTest.java INFO  [main] Test.loginTest 21 - Launching Chrome Browser
+06-04-2020 01:34:52 loginTest.java INFO  [main] Test.loginTest 27 - Site is opening
+06-04-2020 01:34:52 loginTest.java WARN  [main] Test.loginTest 28 - This is a warning
+06-04-2020 01:34:52 loginTest.java FATAL [main] Test.loginTest 29 - This is a fatal messege
+06-04-2020 01:34:52 loginTest.java INFO  [main] Test.loginTest 39 - Getting Title
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 8330
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 04, 2020 1:34:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.Test.loginTest" name="isDisplayedLogo" time="0.33"/>
+</testsuite>

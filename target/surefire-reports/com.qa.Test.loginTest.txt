@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.Test.loginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.501 sec <<< FAILURE!
+TitleTextTest(com.qa.Test.loginTest)  Time elapsed: 0.093 sec  <<< FAILURE!
+java.lang.AssertionError: expected [CRMPRO CRM Software for customer relationship management, sales and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.qa.Test.loginTest.TitleTextTest(loginTest.java:40)
+
